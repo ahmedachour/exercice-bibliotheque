@@ -1,0 +1,8 @@
+.BooksBuy::before {
+    transform: rotate(45deg);
+  }
+  
+  .BooksBuy__filter {
+    width: 200px;
+  }
+  

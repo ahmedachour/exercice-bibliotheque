@@ -1,0 +1,33 @@
+.Book__cover {
+    margin-top: 100px;  /* Une longueur absolue */
+
+    min-width: 100px;
+    max-width: 100px;
+    width: '50%',
+  }
+
+  .Book__button {
+    background-color: #080bec; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  
+}
+  
+
+  /* media object active */
+  @media (min-width: 480px) {
+    .Book__content {
+      min-width: 120px;
+    }
+  }
+  
+  /* tiny screens - no more media object */
+  @media (max-width: 479px) {
+    .Book {
+      text-align: center;
+    }
+  }

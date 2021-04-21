@@ -1,0 +1,30 @@
+.Basket {
+    background-color: #f8f8f8;
+    flex: 0 1 20%;
+    max-width: 30%;
+    height:400px
+  }
+  
+  .Basket__list {
+    border-bottom: 1px solid #eee;
+  }
+
+  .Basket__buy {
+    background-color: #080bec; 
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;  
+}
+  
+
+  @media (max-width: 479px) {
+    .Basket__buy {
+      width: 50%;
+    }
+  }
